@@ -1,0 +1,62 @@
+
+ /* .img-rescale {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 250px;
+    width: 50%;
+    animation: scale 0.5s;
+}
+@keyframes scale {
+    from {
+		width: 100%;
+		height: 100%;
+    }
+    to {
+		width: 10%;
+		height: 10%;
+    }
+}  */
+
+body, html {
+    margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+.container {
+	display: flex;
+	max-width: 100vw;
+	height: 70vh;
+	margin: 85px 0;
+	flex-flow: column wrap;
+	border: 1px solid #000;
+
+}
+
+.img-item {
+	width: 50%;
+	height: 50%;
+
+}
+
+.img-fade {
+	animation: fadeOut 5s ease-in-out;
+
+}
+
+@keyframes fadeOut {
+    0% {
+		opacity:1;
+	}
+	80% {
+		opacity:0.8;
+	}
+	100% {
+		opacity:0;
+	}
+} 
+
+
